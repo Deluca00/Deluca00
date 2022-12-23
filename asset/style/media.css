@@ -1,7 +1,7 @@
 /*========== BREAKPOINTS ==========*/
 
 /* For Small Devices */
-@media screen and (max-width:350px) {
+@media screen and (max-width:320px) {
     .container {
         margin-right: 1rem;
         margin-left: 10rem;
@@ -11,6 +11,7 @@
     .home-container {
         margin: 0;
     }
+
     .home-img {
         width: 250px;
     }
@@ -49,12 +50,18 @@
     .logos-container {
         gap: 2.5rem;
     }
+    .gallery-img {
+        width: 300px !important;
+        height: 250px !important;
+        border-radius: 10px;
+    
+    }
 
 }
 
 /* For Medium Devices */
 
-@media screen and (min-width:550px) {
+@media screen and (min-width:576px) {
 
     .featured-content {
         grid-template-columns: repeat(2, 228px);
@@ -70,8 +77,11 @@
         position: relative;
         bottom: initial;
         right: initial;
-  }
 
+
+
+    }
+    
     .offer-data {
         margin-bottom: 4rem;
     }
@@ -80,9 +90,15 @@
         grid-template-columns: repeat(2, max-content);
         justify-content: space-between;
     }
+    .gallery-img {
+        width: 350px !important;
+        height: 250px !important;
+        border-radius: 10px;
+    }
+
 }
 
-@media screen and (min-width:760px) {
+@media screen and (min-width:768px) {
     .home-container {
         position: relative;
         width: 45%;
@@ -90,11 +106,17 @@
         margin-left: 30px;
         row-gap: 3cm;
         float: left;
-   }
+
     }
-    .home-container1{
-        margin: 10px;
+
+    .home-container1 {
+        position: relative;
+        width: 45%;
+        row-gap: 3cm;
+        align-items: center;
+        float: right;
     }
+
     .section {
         padding: 7rem 0 2rem;
     }
@@ -137,6 +159,7 @@
     .about-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .logos-container {
         gap: 4rem 8rem;
     }
@@ -144,11 +167,16 @@
     .footer-container {
         grid-template-columns: repeat(2, 1fr);
     }
-
+    .gallery-img {
+        width: 300px !important;
+        height: 250px !important;
+        border-radius: 10px;
+    }
+}
 
 /* For Large Devices */
 
-@media screen and (min-width:1652px) {
+@media screen and (min-width:1140px) {
     .container {
         margin-right: auto;
         margin-left: auto;
@@ -200,7 +228,7 @@
     }
 
     .gallery-container {
-        width: 80% !important;
+        width: 80%;
         padding-top: 1cm;
     }
     .gallery-img {
