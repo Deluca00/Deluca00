@@ -6,7 +6,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 4;
+    z-index: 2;
 }
 
 .nav {
@@ -18,12 +18,13 @@ header {
 .nav-logo,
 .nav-toggle {
     color: white;
-    display: inline-flex;
+    display:inline-flex;
+    margin-right:15px;
 }
 
 .nav-logo {
     align-items: center;
-    column-gap: .25cm;
+    column-gap: .2cm;
     font-weight: bolder;
     transition: .2s;
 }
@@ -68,7 +69,10 @@ color: greenyellow;
 .nav-toggle:hover {
     color: greenyellow;
 }
+.nav-bi1{
+  zoom: 2;
 
+}
 @media screen and (max-width:767px) {
     .nav-menu {
         position: fixed;
@@ -87,15 +91,15 @@ color: greenyellow;
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 3cm;
-    padding-top: 9cm;
+    row-gap: 2cm;
+    padding-top: 5cm;
     justify-content: center;
 }
 
 .nav-link{
     text-transform: uppercase;
     color: white;
-    font-size: medium;
+    font-size:20px;
     font-weight: normal;
     transition: .2s;
 }
@@ -109,7 +113,7 @@ color: greenyellow;
 
 
 .nav-close {
-    font-size: 2rem;
+    font-size: 1cm;
     color: white;
     position: absolute;
     top: 1cm;
