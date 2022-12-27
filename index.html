@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="./asset/style/main.css">
     <link rel="stylesheet" href="./asset/style/footer.css">
     <link rel="stylesheet" href="./asset/style/media.css">
+    <link rel="stylesheet" href="./asset/style/popup.css">
 
 </head>
 
@@ -62,10 +63,10 @@
                     <li class="nav-item">
                         <a href="register.html" target="_self" class="nav-bi nav-link bi-person-lines-fill"></a>
                     </li>
-                    <!--logo-cart-->
+                    <!-- logo-cart
                     <li class="nav-item cart-icon">
                         <a href=""><i class="nav-bi1 nav-link bi-bag-check"></i></a>
-                    </li>
+                    </li> -->
                 </ul>
                 <div class="nav-close" id="nav-close">
                     <i class="ri-close-line"></i>
@@ -129,36 +130,36 @@
             </div>
 
         </section>
-        <!--=============== CART ===============-->
-        <section>
+        <!-- =============== CART =============== -->
+        <!-- <section>
             <div class="cart">
-                <h2 class="cart-title">Your car</h2>
-                <!--========= CART-CONTENT ==========-->
-                <div class="cart-content">
+                <h2 class="cart-title">Your car</h2> -->
+        <!--========= CART-CONTENT ==========-->
+        <!-- <div class="cart-content">
                     <div class="cart-box">
                         <img src="./asset/images/featured1.png" alt="" class="cart-image">
                         <div class="detail-box">
                             <div class="cart-product-title">volvo cx90</div>
                             <div class="cart-price">34$</div>
-                         <input type="number" value="1" class="cart-quantity">
-                        </div>
-                        <!--==== REMOVE ======-->
-                         <i class="cart-remove bi-trash "></i>
+                            <input type="number" value="1" class="cart-quantity">
+                        </div> -->
+        <!--==== REMOVE ======-->
+        <!-- <i class="cart-remove bi-trash "></i>
                     </div>
-                </div>
-                 <!--====== TOTAL =======-->
-                <div class="total"> 
+                </div> -->
+        <!--====== TOTAL =======-->
+        <!-- <div class="total">
                     <div class="total-title">Total</div>
-                    <div class="total-price">$0</div>
-                </div>
-                <!--====== BUY =======-->
-                <button type="button" class="btn-buy">Buy now</button>
-              <i class="ri-close-line" id="close-cart"></i> 
-                
-           
-           
+                    <div class="total-price">$0</div> -->
         </div>
-        </section>
+        <!--====== BUY =======-->
+        <!-- <button type="button" class="btn-buy">Buy now</button>
+                <i class="ri-close-line" id="close-cart"></i>
+
+
+
+            </div>
+        </section> -->
         <!-- =============== ABOUT =============== -->
         <section class="about section" id="about">
             <section>
@@ -371,141 +372,147 @@
                 <div class="swiper-pagination"></div>
             </div>
         </section>
-
-        <!-- =============== FEATURES ===============
-        <section class="features section">
-            <h2 class="section-title">More Features</h2>
-            <div class="features-container container grid">
-                <div class="features-group">
-                    <img src="./asset/images/features.png" alt="" class="features-img">
-                    <div class="features-card features-card-1">
-                        <h3 class="features-card-title">800v</h3>
-                        <p class="features-card-description">Turbo <br> Chargin</p>
-                        </p>
-                    </div>
-                    <div class="features-card features-card-2">
-                        <h3 class="features-card-title">350</h3>
-                        <p class="features-card-description">Km <br> Range</p>
-                    </div>
-                    <div class="features-card features-card-3">
-                        <h3 class="features-card-title">480</h3>
-                        <p class="features-card-description">Km <br> Travel</p>
-                    </div>
-                </div>
-                <img src="./asset/images/map.svg" alt="" class="features-map">
-            </div>
-        </section> -->
-
         <!--=============== Bran-new car ===============-->
-        <section class="featured section" id="typesofcars">
-            <div id="new">>
-                <h2 class="section-title"> New electric car</h2>
-                <div class="featured-container container grid">
-                    <ul class="featured-filters">
+        <section id="typesofcars">
+            <section class="featured section">
+                <div id="new">>
+                    <h2 class="section-title"> New electric car</h2>
+                    <div class="featured-container container grid">
+                        <ul class="featured-filters">
 
-                        <li>
-                            <button class="featured-item active-featured" data-filter="all">
-                                <span>All</span>
-                            </button>
-                        </li>
+                            <li>
+                                <button class="featured-item active-featured" data-filter="all">
+                                    <span>All</span>
+                                </button>
+                            </li>
 
-                        <li>
-                            <button class="featured-item" data-filter=".tesla">
-                                <img src="./asset/images/logo3.png" alt="">
-                            </button>
-                        </li>
+                            <li>
+                                <button class="featured-item" data-filter=".tesla">
+                                    <img src="./asset/images/logo3.png" alt="">
+                                </button>
+                            </li>
 
-                        <li>
-                            <button class="featured-item" data-filter=".audi">
-                                <img src="./asset/images/logo2.png" alt="">
-                            </button>
-                        </li>
+                            <li>
+                                <button class="featured-item" data-filter=".audi">
+                                    <img src="./asset/images/logo2.png" alt="">
+                                </button>
+                            </li>
 
-                        <li>
-                            <button class="featured-item" data-filter=".porsche">
-                                <img src="./asset/images/logo1.png" alt="">
-                            </button>
-                        </li>
-                    </ul>
-                    <div class="featured-content grid">
-
-                        <article class="featured-card mix tesla">
-                            <div class="shape shape-smaller"></div>
-                            <h1 class="featred-title">Tesla</h1>
-                            <h3 class="featured-subtitle">Model X</h3>
-                            <img src="./asset/images/featured1.png" alt="" class="featured-img">
-                            <h3 class="featured-price">$98,900</h3>
-                            <button class="button featured-button"><i class="ri-shopping-bag-2-line"></i></button>
-                        </article>
-
+                            <li>
+                                <button class="featured-item" data-filter=".volvo">
+                                    <img src="./asset/images/logo1.png" alt="">
+                                </button>
+                            </li>
+                            <li>
+                                <button class="featured-item" data-filter=".vinfast">
+                                    <img src="./asset/images/logo4.png" alt="">
+                                </button>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-            </div>
-        </section>
-        <section class="featured section" id="featured">
-            <div id="old">
-                <h2 class="section-title">Old Electric car</h2>
-                <div class="featured-container container grid">
-                    <ul class="featured-filters">
-
-                        <li>
-                            <button class="featured-item active-featured" data-filter="all">
-                                <span>All</span>
-                            </button>
-                        </li>
-
-                        <li>
-                            <button class="featured-item" data-filter=".tesla">
-                                <img src="./asset/images/logo3.png" alt="">
-                            </button>
-                        </li>
-
-                        <li>
-                            <button class="featured-item" data-filter=".audi">
-                                <img src="./asset/images/logo2.png" alt="">
-                            </button>
-                        </li>
-
-                        <li>
-                            <button class="featured-item" data-filter=".porsche">
-                                <img src="./asset/images/logo1.png" alt="">
-                            </button>
-                        </li>
-                    </ul>
                     <div class="featured-content grid">
+                        <div>
+                            <article class="featured-card mix tesla">
 
-                        <article class="featured-card mix tesla">
-                            <div class="shape shape-smaller"></div>
-                            <h1 class="featred-title">Tesla</h1>
-                            <h3 class="featured-subtitle">Model X</h3>
-                            <img src="./asset/images/featured1.png" alt="" class="featured-img">
-                            <h3 class="featured-price">$98,900</h3>
-                            <button class="button featured-button"><i class="ri-shopping-bag-2-line"></i></button>
-                        </article>
+                                <div class="shape shape-smaller"></div>
+                                <h1 class="featred-title">Tesla</h1>
+                                <h3 class="featured-subtitle">Model X</h3>
+                                <img src="./asset/images/featured1.png" alt="" class="featured-img" data-name="p-1">
+                                <h3 class="featured-price">$98,900</h3>
+                                <!-- <a href="#" id="button1" class="button1">Click Me</a> -->
+                                <!-- <button  id="button1 "class="button featured-button"><i class="ri-shopping-bag-2-line"></i></button> -->
+                                <button class="open-button" onclick="openForm()">More</button>
+                            </article>
+                            <!--========= content ==========-->
+                            <div class="form-popup form-container" id="myForm">
+                                <h1>dfjdsl;fjdsfgj</h1>
+                                
+                                <i class="ri-close-line" id="close-cart" onclick="closeForm()"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <article class="featured-card mix tesla">
+                                <div class="shape shape-smaller"></div>
+                                <h1 class="featred-title">Tesla</h1>
+                                <h3 class="featured-subtitle">Model 3</h3>
+                                <img src="./asset/images/featured2.png" alt="" class="featured-img">
+                                <h3 class="featured-price">$45,900</h3>
+                                <button class="open-button" onclick="openForm()">More</button>
+                            </article>
+                            <!--========= content ==========-->
+                            <div class="form-popup form-container" id="myForm">
+                                <h1>dfjdsl;fjdsfgj</h1>
+                                <h2>dfdfsdfsdf</h2>
+                                <h1>dsfsdfsdfsdfds</h1>
+                                <i class="ri-close-line" id="close-cart" onclick="closeForm()"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <article class="featured-card mix audi">
+                                <div class="shape shape-smaller"></div>
+                                <h1 class="featred-title">Audi</h1>
+                                <h3 class="featured-subtitle">E-tron</h3>
+                                <img src="./asset/images/featured3.png" alt="" class="featured-img">
+                                <h3 class="featured-price">$175,900</h3>
+                                <button class="open-button" onclick="openForm()">More</button>
+                            </article>
+                            <!--========= content ==========-->
+                            <div class="form-popup form-container" id="myForm">
+                                <h1>dfjdsl;fjdsfgj</h1>
+                                <h2>dfdfsdfsdf</h2>
+                                <h1>dsfsdfsdfsdfds</h1>
+                                <i class="ri-close-line" id="close-cart" onclick="closeForm()"></i>
+                            </div>
+                        </div>
+                       
 
+            </section>
+            <!--=============== Old-new car ===============-->
+            <section class="featured section">
+                <div id="old">>
+                    <h2 class="section-title"> Old electric car</h2>
+                    <div class="featured-container container grid">
+                        <ul class="featured-filters">
+                            <li>
+                                <button class="featured-item active-featured" data-filter="all">
+                                    <span>All</span>
+                                </button>
+                            </li>
+
+                            <li>
+                                <button class="featured-item" data-filter=".tesla1">
+                                    <img src="./asset/images/logo3.png" alt="">
+                                </button>
+                            </li>
+
+                            <li>
+                                <button class="featured-item" data-filter=".audi1">
+                                    <img src="./asset/images/logo2.png" alt="">
+                                </button>
+                            </li>
+
+                            <li>
+                                <button class="featured-item" data-filter=".volvo1">
+                                    <img src="./asset/images/logo1.png" alt="">
+                                </button>
+                            </li>
+                            <li>
+                                <button class="featured-item" data-filter=".vinfast1">
+                                    <img src="./asset/images/logo4.png" alt="">
+                                </button>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-            </div>
-        </section>
-        <!--=============== offer===============-->
-        <section class="offer section">
-            <div class="offer-container container grid">
-                <img src="./asset/images/offer-bg.png" alt="" class="offer-bg">
-                <div class="offer-data">
-                    <h2 class="section-title offer-title">
-                        Do You Want To Receive <br> Special Offers?
-                    </h2>
-                    <p class="offer-description">
-                        Be the first to receive all the information about our
-                        products and new cars by email by subscribing to our
-                        mailing list.
-                    </p>
-                    <a href="#" class="button">Subscribe Now</a>
-                </div>
-                <img src="./asset/images/offer.png" alt="" class="offer-img">
-            </div>
+                    <div class="featured-content grid">
+                      
+
+            </section>
         </section>
 
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer section">
         <!--=============== LOGOS ===============-->
         <section class="logos section">
             <div class="logos-container container grid">
@@ -536,10 +543,6 @@
             </div>
         </section>
 
-    </main>
-
-    <!--=============== FOOTER ===============-->
-    <footer class="footer section">
         <div class="shape shape-big"></div>
         <div class="shape shape-small"></div>
         <div class="footer-container container grid">
@@ -639,7 +642,7 @@
     <!--=============== SCRIPT ===============-->
     <script src="./asset/script/script.js"></script>
     <!--=============== CART ===============-->
-    <script src="./asset/script/cart.js"></script>
+    <script src="./asset/script/popup.js"></script>
 </body>
 
 </html
