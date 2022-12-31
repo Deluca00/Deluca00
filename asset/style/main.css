@@ -1,5 +1,7 @@
 /*========== MAIN ==========*/
-
+main{
+    z-index: 1;
+}
 /*========== HOME ==========*/
 .home {
     position: relative;
@@ -90,7 +92,6 @@
 .home .shape-small {
     position: absolute;
 }
-
 .home .shape-big {
     left: -9rem;
     top: -4rem;
@@ -345,6 +346,7 @@ font-size: 25px;
     text-align: center;
     color: var(--title-color);
     position: absolute;
+    display: none;
 }
 
 .features-card-1 {
