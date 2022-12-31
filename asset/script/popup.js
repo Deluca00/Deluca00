@@ -15,8 +15,10 @@ function filterSelection(section, type) {
   x = document.getElementsByClassName(section);
   if (type == "all") { type = ""; }
   for (i = 0; i < x.length; i++) {
-    x[i].classList.remove("show");
-    if (x[i].className.indexOf(type) > -1) { x[i].classList.add("show"); }
+    // x[i].classList.remove("show");
+    // if (x[i].className.indexOf(type) > -1) { x[i].classList.add("show"); }
+    x[i].style.display = "none";
+    if (x[i].className.indexOf(type) > -1) { x[i].style.display = "block"; }
   }
 }
 
