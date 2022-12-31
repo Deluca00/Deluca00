@@ -372,109 +372,104 @@
                 <div class="swiper-pagination"></div>
             </div>
         </section>
-        <!--=============== Bran-new car ===============-->
-        <section id="typesofcars">
-            <section class="featured section">
-                <div id="new">>
-                    <h2 class="section-title"> New electric car</h2>
-                    <div class="featured-container container grid">
-                        <ul class="featured-filters">
+       <!--=============== Bran-new car ===============-->
+       <section id="typesofcars">
+        <section class="featured section">
+            <div id="new">>
+                <h2 class="section-title"> New electric car</h2>
+                <div class="featured-container container grid">
+                    <ul class="featured-filters">
+                        <li>
+                            <button class="featured-item active-featured " onclick="filterSelection('filterDivNew','all')">
+                                <span>All</span>
+                            </button>
+                        </li>
+                    <li>
+                            <button class="featured-item " onclick="filterSelection('filterDivNew','tesla')">
+                                <img src="./asset/images/logo3.png" alt="">
+                            </button>
+                        </li>
 
-                            <li>
-                                <button class="featured-item active-featured" data-filter="all">
-                                    <span>All</span>
-                                </button>
-                            </li>
+                        <li>
+                            <button class="featured-item " onclick="filterSelection('filterDivNew','audi')">
+                                <img src="./asset/images/logo2.png" alt="">
+                            </button>
+                        </li>
 
-                            <li>
-                                <button class="featured-item" data-filter=".tesla">
-                                    <img src="./asset/images/logo3.png" alt="">
-                                </button>
-                            </li>
+                        <li>
+                            <button class="featured-item " onclick="filterSelection('filterDivNew','volvo')">
+                                <img src="./asset/images/logo1.png" alt="">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured-item " onclick="filterSelection('filterDivNew','vinfast')">
+                                <img src="./asset/images/logo4.png" alt="">
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="featured-content grid">
+                    <div>
+                        <article class="featured-card filterDivNew tesla">
 
-                            <li>
-                                <button class="featured-item" data-filter=".audi">
-                                    <img src="./asset/images/logo2.png" alt="">
-                                </button>
-                            </li>
-
-                            <li>
-                                <button class="featured-item" data-filter=".volvo">
-                                    <img src="./asset/images/logo1.png" alt="">
-                                </button>
-                            </li>
-                            <li>
-                                <button class="featured-item" data-filter=".vinfast">
-                                    <img src="./asset/images/logo4.png" alt="">
-                                </button>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="featured-content grid">
-                        <div>
-                            <article class="featured-card mix tesla">
-
-                                <div class="shape shape-smaller"></div>
-                                <h1 class="featred-title">Tesla</h1>
-                                <h3 class="featured-subtitle">Model X</h3>
-                                <img src="./asset/images/featured1.png" alt="" class="featured-img" data-name="p-1">
-                                <h3 class="featured-price">$98,900</h3>
-                                <!-- <a href="#" id="button1" class="button1">Click Me</a> -->
-                                <!-- <button  id="button1 "class="button featured-button"><i class="ri-shopping-bag-2-line"></i></button> -->
-                                <button class="open-button" onclick="openForm()">More</button>
-                            </article>
-                            <!--========= content ==========-->
-                            <div class="form-popup form-container" id="myForm">
-                                <h1>dfjdsl;fjdsfgj</h1>
-                                
-                                <i class="ri-close-line" id="close-cart" onclick="closeForm()"></i>
-                            </div>
-                        </div>
-                        <div>
-                            <article class="featured-card mix tesla">
-                                <div class="shape shape-smaller"></div>
-                                <h1 class="featred-title">Tesla</h1>
-                                <h3 class="featured-subtitle">Model 3</h3>
-                                <img src="./asset/images/featured2.png" alt="" class="featured-img">
-                                <h3 class="featured-price">$45,900</h3>
-                                <button class="open-button" onclick="openForm()">More</button>
-                            </article>
-                            <!--========= content ==========-->
-                            <div class="form-popup form-container" id="myForm">
-                                <h1>dfjdsl;fjdsfgj</h1>
-                                <h2>dfdfsdfsdf</h2>
-                                <h1>dsfsdfsdfsdfds</h1>
-                                <i class="ri-close-line" id="close-cart" onclick="closeForm()"></i>
-                            </div>
-                        </div>
-                        <div>
-                            <article class="featured-card mix audi">
-                                <div class="shape shape-smaller"></div>
-                                <h1 class="featred-title">Audi</h1>
-                                <h3 class="featured-subtitle">E-tron</h3>
-                                <img src="./asset/images/featured3.png" alt="" class="featured-img">
-                                <h3 class="featured-price">$175,900</h3>
-                                <button class="open-button" onclick="openForm()">More</button>
-                            </article>
-                            <!--========= content ==========-->
-                            <div class="form-popup form-container" id="myForm">
-                                <h1>dfjdsl;fjdsfgj</h1>
-                                <h2>dfdfsdfsdf</h2>
-                                <h1>dsfsdfsdfsdfds</h1>
-                                <i class="ri-close-line" id="close-cart" onclick="closeForm()"></i>
-                            </div>
-                        </div>
+                            <div class="shape shape-smaller"></div>
+                            <h1 class="featred-title">Tesla</h1>
+                            <h3 class="featured-subtitle">Model X</h3>
+                            <img src="./asset/images/featured1.png" alt="" class="featured-img">
+                            <h3 class="featured-price">$98,900</h3>
+                            <!-- <a href="#" id="button1" class="button1">Click Me</a> -->
+                            <!-- <button  id="button1 "class="button featured-button"><i class="ri-shopping-bag-2-line"></i></button> -->
+                            <button class="open-button" onclick="openForm('form1')">More</button><br>
+                        </article>
+                        <!--========= content ==========-->
                        
+                        <div class="form-popup form-container" id="form1">
+                          <h1>Hello world! Form A</h1>
+                          <i class="ri-close-line" id="close-cart" aria-hidden="true" onclick="closeForm('form1')"></i>
+                       </div>
+                    </div>
+                    <div>
+                        <article class="featured-card filterDivNew audi">
+                            <div class="shape shape-smaller"></div>
+                            <h1 class="featred-title">Audi</h1>
+                            <h3 class="featured-subtitle">E-tron</h3>
+                            <img src="./asset/images/featured3.png" alt="" class="featured-img">
+                            <h3 class="featured-price">$175,900</h3>
+                            <button class="open-button" onclick="openForm('form2')">More</button><br>
+                        </article>
+                        <!--========= content ==========-->
+                       
+                        <div class="form-popup form-container" id="form2">
+                          <h1>Hello world!</h1>
+                          <i class="ri-close-line" id="close-cart" aria-hidden="true" onclick="closeForm('form2')"></i>
+                       </div>
+                    </div>
+                    <div>
+                        <article class="featured-card filterDivNew tesla ">
+                            <div class="shape shape-smaller"></div>
+                            <h1 class="featred-title">Tesla</h1>
+                            <h3 class="featured-subtitle">Model 3</h3>
+                            <img src="./asset/images/featured2.png" alt="" class="featured-img">
+                            <h3 class="featured-price">$45,900</h3>
+                            <button class="open-button" onclick="openForm('form3')">More</button><br>
+                        </article>
+                        <!--========= content ==========-->
+                       
+                        <div class="form-popup form-container" id="form3">
+                          <h1>Hello world nnnnn</h1>
+                          <i class="ri-close-line" id="close-cart" aria-hidden="true" onclick="closeForm('form3')"></i>
+                       </div>
+                    </div>
 
-            </section>
+        </section>
             <!--=============== Old-new car ===============-->
             <section class="featured section">
-                <div id="old">>
+                <div id="old">
                     <h2 class="section-title"> Old electric car</h2>
                     <div class="featured-container container grid">
                         <ul class="featured-filters">
                             <li>
-                                <button class="featured-item active-featured" data-filter="all">
+                                <button class="featured-item active-featured" data-filter="all1">
                                     <span>All</span>
                                 </button>
                             </li>
@@ -504,8 +499,8 @@
                         </ul>
                     </div>
                     <div class="featured-content grid">
-                      
 
+                       
             </section>
         </section>
 
