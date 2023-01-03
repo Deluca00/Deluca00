@@ -133,7 +133,7 @@ header {
 
 /* BACKGROUND HEADER */
 .scroll-header {
-    border-radius: 0 0 1rem 1rem;
+    border-radius: 0 0 1cm 1cm;
     background-color: hsla(0, 0%, 1%, 1);
     box-shadow: 0 2px 4px hsla(0, 0%, 1%, 1);
 }

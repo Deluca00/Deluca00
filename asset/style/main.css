@@ -19,7 +19,7 @@ main{
 }
 
 .home-container1 {
-    margin-top: 5rem;
+    margin-top: 1cm;
     position: relative;
     width: 100%;
     row-gap: 3cm;
@@ -73,18 +73,18 @@ main{
 .home-car-number {
     font-size: var(--h2-font-size);
     font-weight: var(--font-medium);
-    margin-bottom: .25rem;
+    margin-bottom: .25cm;
 }
 
 .home-car-icon {
     background-color: var(--container-color);
     border-radius: 50%;
-    padding: .376rem;
+    padding: .376cm;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    font-size: .875rem;
-    margin-bottom: .75rem;
+    font-size: .875cm;
+    margin-bottom: .75cm;
 }
 
 
@@ -93,13 +93,13 @@ main{
     position: absolute;
 }
 .home .shape-big {
-    left: -9rem;
-    top: -4rem;
+    left: -9cm;
+    top: -4cm;
 }
 
 .home .shape-small {
-    right: -10rem;
-    bottom: 3rem;
+    right: -10cm;
+    bottom: 3cm;
 }
 
 /* Button animate */
@@ -166,7 +166,7 @@ font-size: 25px;
     width: 1cm;
     text-align: center;
 }
-.cart-remove{
+.cart-cmove{
     font-size:30px ;
     cursor: pointer;
     color:brown;
@@ -223,7 +223,7 @@ font-size: 25px;
     position: relative;
 }
 .about-container {
-    row-gap: 1rem;
+    row-gap: 1cm;
     position: relative;
     width: 90%;
     align-items: center;
@@ -240,7 +240,7 @@ font-size: 25px;
 .about-card-title {
 
     font-size: var(--h3-font-size);
-    margin-bottom: .5rem;
+    margin-bottom: .5cm;
 }
 
 .about-card-description {
@@ -249,7 +249,7 @@ font-size: 25px;
 
 .about-title {
     text-align: initial;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.5cm;
     color:greenyellow;
 }
 
@@ -279,7 +279,7 @@ font-size: 25px;
     transition: .3s;
 }
 .gallery-img:hover {
-    transform: translateY(-0.25rem);
+    transform: translateY(-0.25cm);
 }
 /*========== BUTTON ==========*/
 .button {
@@ -321,7 +321,7 @@ font-size: 25px;
 }
 
 .features-container {
-    padding-top: 2rem;
+    padding-top: 2cm;
     grid-template-columns: 285px;
     justify-content: center;
 }
@@ -341,8 +341,8 @@ font-size: 25px;
     width: 112px;
     background-color: hsla(0, 0%, 100%, .1);
     backdrop-filter: blur(16px);
-    border-radius: 1.25rem;
-    padding: .75rem 2rem;
+    border-radius: 1.25cm;
+    padding: .75cm 2cm;
     text-align: center;
     color: var(--title-color);
     position: absolute;
@@ -350,23 +350,23 @@ font-size: 25px;
 }
 
 .features-card-1 {
-    top: 4rem;
-    left: 1.5rem;
+    top: 4cm;
+    left: 1.5cm;
 }
 
 .features-card-2 {
-    top: 8rem;
-    right: 1rem;
+    top: 8cm;
+    right: 1cm;
 }
 
 .features-card-3 {
-    left: 1.5rem;
-    bottom: 2rem;
+    left: 1.5cm;
+    bottom: 2cm;
 }
 
 .features-card-title {
     font-size: var(--h3-font-size);
-    margin-bottom: .25rem;
+    margin-bottom: .25cm;
 }
 
 .features-card-description {
