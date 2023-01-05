@@ -31,7 +31,7 @@ main{
 }
 
 .home-subtitle {
-    font-size: 40px;
+    font-size: 60px;
     margin-bottom: .25cm;
 }
 
@@ -71,13 +71,13 @@ main{
 }
 
 .home-car-number {
-    font-size: var(--h2-font-size);
-    font-weight: var(--font-medium);
+    font-size:1.25rem;
+    font-weight:500;
     margin-bottom: .25cm;
 }
 
 .home-car-icon {
-    background-color: var(--container-color);
+    background-color:hsl(219, 4%, 7%);
     border-radius: 50%;
     padding: .376cm;
     display: inline-flex;
@@ -239,12 +239,12 @@ font-size: 25px;
 
 .about-card-title {
 
-    font-size: var(--h3-font-size);
+    font-size:1rem;
     margin-bottom: .5cm;
 }
 
 .about-card-description {
-    font-size: var(--smaller-font-size);
+    font-size: .813rem;
 }
 
 .about-title {
@@ -270,7 +270,7 @@ font-size: 25px;
 }
 
 .gallery-title {
-    font-size: medium;
+    font-size:500;
     margin-bottom: .1cm;
 }
 .gallery-img {
@@ -285,7 +285,7 @@ font-size: 25px;
 .button {
     display: inline-block;
     background-color:antiquewhite;
-    color: var(--white-color);
+    color:#fff;
     padding: 0.2cm 1cm;
     margin: 5% 45%;
     border-radius: 20px;
@@ -340,7 +340,7 @@ font-size: 25px;
     border-radius: 1.25cm;
     padding: .75cm 2cm;
     text-align: center;
-    color: var(--title-color);
+    color: hsl(219, 8%, 95%);
     position: absolute;
     display: none;
 }
@@ -361,12 +361,12 @@ font-size: 25px;
 }
 
 .features-card-title {
-    font-size: var(--h3-font-size);
+    font-size: 1rem;
     margin-bottom: .25cm;
 }
 
 .features-card-description {
-    font-size: var(--smaller-font-size);
+    font-size:.75rem;
 }
 
 .features-map {
@@ -400,9 +400,9 @@ font-size: 25px;
     outline: none;
     padding: .75rem;
     border-radius: .75rem;
-    background-color: var(--container-color);
-    color: var(--white-color);
-    font-size: var(--normal-font-size);
+    background-color: hsl(219, 4%, 7%);
+    color: #fff;
+    font-size: .938rem;
     cursor: pointer;
     transition: .3s;
 }
@@ -418,7 +418,7 @@ font-size: 25px;
 }
 
 .featured-item:hover {
-    background-color: var(--first-color);
+    background-color:hsl(219, 69%, 56%) ;
 }
 
 .featured-item:hover span,
@@ -434,7 +434,7 @@ font-size: 25px;
 
 .featured-card {
     position: relative;
-    background-color: var(--container-color);
+    background-color: hsl(219, 4%, 7%);
     padding: 2rem 1.5rem 1.5rem;
     border-radius: 1rem;
 }
@@ -452,13 +452,13 @@ font-size: 25px;
 }
 
 .featured-title {
-    font-size: var(--h2-font-size);
+    font-size:1.25rem;
     margin-bottom: .25rem;
 }
 
 .featured-subtitle {
-    font-size: var(--normal-font-size);
-    color: var(--text-color);
+    font-size: .938rem;
+    color:hsl(219, 8%, 75%);
     font-weight: 400;
 }
 
@@ -495,7 +495,7 @@ font-size: 25px;
 /* Active Featured */
 
 .active-featured {
-    background-color: var(--first-color);
+    background-color:hsl(219, 69%, 56%);
 }
 
 .active-featured span,
