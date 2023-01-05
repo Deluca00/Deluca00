@@ -18,7 +18,7 @@ header {
 .nav-logo,
 .nav-toggle {
     color: white;
-    font-size: 40px;
+    font-size: 50px;
     display:inline-flex;
     margin-right:20px;
 }
@@ -100,7 +100,7 @@ header {
 .nav-link{
     text-transform: uppercase;
     color: white;
-    font-size:20px !important;
+    font-size: 20px !important;
     font-weight: normal;
     transition: .2s;
 }
