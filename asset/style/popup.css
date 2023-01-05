@@ -20,45 +20,45 @@
   position: fixed;
   right: 15px;
   left:  15px;
-  top: 100px;
-  bottom: 15px;
-  border: 5px solid #f1f1f1;
-  background-color:gray;
+  top: 40px;
+  bottom: 40px;
+  border-radius: 10px;
+  background-color:rgb(109, 109, 109);
   z-index: 3;
   align-items: center;
 }
 /* Add styles to the form container */
 .form-container {
   align-items: center;
-  width:90%;
+  width:80%;
+  height: 95%;
   margin: auto;
-  padding:10px ;
-  
+  padding: 1px;
+  overflow-y: scroll;
 }
-.form-title{
-  width: 50px;
-  
-}
+
 .form-img{
  position: relative; 
- width: 500px;
- margin: 1.5rem 25%;
+ width: 400px;
+ margin: 2rem 30%;
  transition: .3s;
 }
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  width: 90%;
+  margin: auto; 
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 0.5px solid #dddddd;
   text-align: left;
-  padding: 8px;
+  padding: 5px;
+
 }
-
-tr:nth-child(even) {
-  background-color: #dddddd;
+th {
+  color:rgb(138, 253, 142) ;
 }
-
-
+td{
+  color:rgb(179, 201, 255)
+}

@@ -302,15 +302,11 @@ font-size: 25px;
 .swiper-wrapper {
     justify-content: initial;
 }
-
 .swiper-pagination-bullet {
-    background-color: var(--text-color);
+    background-color:aliceblue;
 }
-
-
-
 .swiper-pagination-bullet-active {
-    background-color: var(--first-color);
+    background-color:aliceblue;
 }
 
 /*========== FEATURES ==========*/
