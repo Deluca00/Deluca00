@@ -113,24 +113,6 @@
 }
 
 @media screen and (min-width:880px) {
-    .home-container {
-        position: relative;
-        width: 45%;
-        padding-top: 100px;
-        margin-left: 30px;
-        row-gap: 3cm;
-        float: left;
-
-    }
-
-    .home-container1 {
-        position: relative;
-        width: 45%;
-        row-gap: 3cm;
-        align-items: center;
-        float: right;
-    }
-
     .section {
         padding: 7rem 0 2rem;
     }

@@ -6,16 +6,15 @@ main{
 .home {
     position: relative;
     overflow: hidden;
-    max-width: 100%;
+    /* max-width: 100%; */
 }
 
 .home-container {
     position: relative;
-    width: 90%;
     padding-top: 100px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     row-gap: 3cm;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .home-container1 {
@@ -25,13 +24,15 @@ main{
     row-gap: 3cm;
     align-items: center;
 }
-
+.home-video{
+    padding-top: 30px;
+}
 .home-data {
     text-align: center;
 }
 
 .home-subtitle {
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: .25cm;
 }
 
