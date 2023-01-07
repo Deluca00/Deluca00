@@ -58,7 +58,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    column-gap: 5cm;
+    column-gap: 3cm;
 }
 
 .home-car-name {

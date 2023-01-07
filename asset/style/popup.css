@@ -23,7 +23,7 @@
   top: 40px;
   bottom: 40px;
   border-radius: 10px;
-  background-color:rgb(109, 109, 109);
+  background-color:rgb(99, 109, 109);
   z-index: 3;
   align-items: center;
 }
@@ -36,7 +36,9 @@
   padding: 1px;
   overflow-y: scroll;
 }
-
+.form-title{
+  margin: 20px 30px;
+}
 .form-img{
  position: relative; 
  width: 400px;
@@ -48,6 +50,7 @@ table {
   border-collapse: collapse;
   width: 90%;
   margin: auto; 
+  margin-bottom: 30px;
 }
 
 td, th {
