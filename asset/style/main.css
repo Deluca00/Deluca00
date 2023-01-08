@@ -50,8 +50,13 @@ main{
 }
 
 .home-img {
+    position: relative; 
     zoom: 1.3;
     justify-self: center;
+    transition: 0.3; 
+}
+.home-container:hover .home-img{
+    transform: translateX(-.50rem);
 }
 
 .home-car {
@@ -346,20 +351,7 @@ font-size: 25px;
     display: none;
 }
 
-.features-card-1 {
-    top: 4cm;
-    left: 1.5cm;
-}
 
-.features-card-2 {
-    top: 8cm;
-    right: 1cm;
-}
-
-.features-card-3 {
-    left: 1.5cm;
-    bottom: 2cm;
-}
 
 .features-card-title {
     font-size: 1rem;
@@ -369,18 +361,6 @@ font-size: 25px;
 .features-card-description {
     font-size:.75rem;
 }
-
-.features-map {
-    max-width: initial;
-    width: 450px;
-    position: absolute;
-    top: 8rem;
-    left: -3rem;
-    right: 1;
-    margin: auto;
-
-}
-
 /*========== FEATURED ==========*/
 .featured-container {
     padding-top: 1rem;

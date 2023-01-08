@@ -13,7 +13,7 @@
     }
 
     .home-img {
-        width: 250px;
+        width: 100px;
     }
 
     .home-car {
@@ -81,25 +81,6 @@
         grid-template-columns: repeat(2, 228px);
     }
 
-    .offer-container {
-        grid-template-rows: initial;
-        grid-template-columns: .5fr;
-        justify-content: center;
-    }
-
-    .offer-img {
-        position: relative;
-        bottom: initial;
-        right: initial;
-
-
-
-    }
-    
-    .offer-data {
-        margin-bottom: 4rem;
-    }
-
     .footer-container {
         grid-template-columns: repeat(2, max-content);
         justify-content: space-between;
@@ -148,10 +129,12 @@
     .footer-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .gallery-img {
-        width: 300px !important;
+        width: 400px !important;
         height: 250px !important;
         border-radius: 10px;
+        margin-right: 1px ;
     }
 }
 

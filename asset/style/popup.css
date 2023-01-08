@@ -20,10 +20,10 @@
   position: fixed;
   right: 15px;
   left:  15px;
-  top: 40px;
+  top: 30px;
   bottom: 40px;
   border-radius: 10px;
-  background-color:rgb(99, 109, 109);
+  background-color: 343f51;
   z-index: 3;
   align-items: center;
 }
@@ -38,6 +38,7 @@
 }
 .form-title{
   margin: 20px 30px;
+  color: F5cbab ;
 }
 .form-img{
  position: relative; 
