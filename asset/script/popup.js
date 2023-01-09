@@ -5,6 +5,10 @@ function openForm(formId) {
 function closeForm(formId) {
   document.getElementById(formId).style.display = "none";
 }
+function notify(){
+  // if( type="submit" = true)
+  alert("✅ We have received the quotation and will contact you as soon as possible")
+}
 // init show all item
 filterSelection("filterDivNew","all");
 filterSelection("filterDivOld","all");
