@@ -487,50 +487,51 @@ font-size: 25px;
 
 /*========== OFFEER ==========*/
 
-.offer {
+.introduce {
     position: relative;
     overflow: hidden;
 }
 
-.offer-container {
+.introduce-container {
     grid-template-rows: max-content 224px;
 }
 
-.offer-bg {
+.introduce-bg {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 90%;
     object-fit: cover;
     object-position: center;
 }
 
-.offer-data,
-.offer-img {
+.introduce-data,
+.introduce-img {
     position: relative;
 
 }
 
-.offer-data {
+.introduce-data {
     text-align: center;
 }
 
-.offer-title {
+.introduce-title {
     margin-bottom: 2rem;
+    color: greenyellow;
 }
 
-.offer-description {
+.introduce-description {
     margin-bottom: 3rem;
+    font-size: 20px;
 }
 
-.offer-img {
+.introduce-img {
     justify-content: center;
     position: absolute;
     max-width: initial;
-    width: 400px;
-    bottom: 2rem;
-    right: -5.5rem;
+    width: 500px;
+    bottom: 5rem;
 }
 
 /*========== LOGOS ==========*/

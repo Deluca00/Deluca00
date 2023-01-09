@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="./asset/style/footer.css">
     <link rel="stylesheet" href="./asset/style/media.css">
     <link rel="stylesheet" href="./asset/style/popup.css">
+    <link rel="stylesheet" href="./asset/style/getquote.css">
 
 </head>
 
@@ -39,7 +40,7 @@
     <header class="header" id="header">
         <nav class="nav container container grid">
             <a href="#" class="nav-logo">
-                E<span> <i class="bi bi-lightning-charge"></i></span>C
+                E<span><i class="bi bi-lightning-charge"></i></span>C
             </a>
             <div class="nav-menu" id="nav-menu">
                 <ul class="nav-list">
@@ -59,9 +60,6 @@
                             <li><a href="#used">USED</a></lGi>
 
                         </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a href="register.html" target="_self" class="nav-bi nav-link bi-person-lines-fill"></a>
                     </li>
                     <!-- logo-cart
                     <li class="nav-item cart-icon">
@@ -325,6 +323,22 @@
         </section> -->
         <!-- =============== ABOUT =============== -->
         <section class="about section" id="about">
+            <section class="introduce section">
+                <div class="introduce-container container grid">
+                    <img src="./asset/images/offer-bg.png" alt="" class="introduce-bg">
+                    <div class="introduce-data">
+                        <h2 class="section-title introduce-title">
+                            Do You Want To Receive <br>price and electric cars informations ?
+                        </h2>
+                        <p class="introduce-description">
+                           Welcome to E<span><i class="bi bi-lightning-charge"></i></span>C which is a leading automotive digital marketplace that aims to make purchasing and selling cars simple, transparent and efficient. 
+                            This website was created to streamline the car-buying process as much as possible. 
+                        
+                        </p>
+                    </div>
+                    <img src="./asset/images/xe bán/vf9.png" alt="" class="introduce-img">
+                </div>
+            </section>
             <section>
                 <div class="about-container container grid">
                     <div class="about-group">
@@ -620,6 +634,7 @@
                                 <img src="./asset/images/xe bán/Tesla-Model-Y.png" alt="" class="featured-img">
                                 <h3 class="featured-price">$61,500</h3>
                                 <button class="open-button" onclick="openForm('form1')">More</button><br>
+                                <button class="form-button" onclick="openForm('form99')">Get a quote</button><br>
                             </article>
                             <!--========= content ==========-->
 
@@ -795,6 +810,7 @@
                                 <img src="./asset/images/xe bán/model s lr awd.png" alt="" class="featured-img">
                                 <h3 class="featured-price">$104,990</h3>
                                 <button class="open-button" onclick="openForm('form2')">More</button><br>
+                                <button class="form-button" onclick="openForm('form99')">Get a quote</button><br>
                             </article>
                             <!--========= content ==========-->
                             <div class="form-popup form-container" id="form2">
@@ -973,6 +989,7 @@
                                 <img src="./asset/images/xe bán/model X.png" alt="" class="featured-img">
                                 <h3 class="featured-price">$120,990</h3>
                                 <button class="open-button" onclick="openForm('form3')">More</button><br>
+                                <button class="form-button" onclick="openForm('form99')">Get a quote</button><br>
                             </article>
                             <!--========= content ==========-->
                             <div class="form-popup form-container" id="form3">
@@ -1152,6 +1169,7 @@
                                 <img src="./asset/images/xe bán/Q8.png" alt="" class="featured-img">
                                 <h3 class="featured-price">$67,085</h3>
                                 <button class="open-button" onclick="openForm('form4')">More</button><br>
+                                <button class="form-button" onclick="openForm('form99')">Get a quote</button><br>
                             </article>
                             <!--========= content ==========-->
                             <div class="form-popup form-container" id="form4">
@@ -1327,6 +1345,7 @@
                                 <img src="./asset/images/xe bán/E-tron.png" alt="" class="featured-img">
                                 <h3 class="featured-price">$113,200</h3>
                                 <button class="open-button" onclick="openForm('form5')">More</button><br>
+                                <button class="form-button" onclick="openForm('form99')">Get a quote</button><br>
                             </article>
                             <!--========= content ==========-->
                             <div class="form-popup form-container" id="form5">
@@ -1502,6 +1521,7 @@
                                 <img src="./asset/images/xe bán/vinfast-vf7.png" alt="" class="featured-img">
                                 <h3 class="featured-price">$30,000</h3>
                                 <button class="open-button" onclick="openForm('form6')">More</button><br>
+                                <button class="form-button" onclick="openForm('form99')">Get a quote</button><br>
                             </article>
                             <!--========= content ==========-->
                             <div class="form-popup form-container" id="form6">
@@ -1681,6 +1701,7 @@
                                 <img src="./asset/images/xe bán/vf9.png" alt="" class="featured-img">
                                 <h3 class="featured-price">$61,000</h3>
                                 <button class="open-button" onclick="openForm('form7')">More</button><br>
+                                <button class="form-button" onclick="openForm('form99')">Get a quote</button><br>
                             </article>
                             <!--========= content ==========-->
                             <div class="form-popup form-container" id="form7">
@@ -1872,6 +1893,7 @@
                                 <img src="./asset/images/xe bán/VF8.png" alt="" class="featured-img">
                                 <h3 class="featured-price">$47,700</h3>
                                 <button class="open-button" onclick="openForm('form8')">More</button><br>
+                                <button class="form-button" onclick="openForm('form99')">Get a quote</button><br>
                             </article>
                             <!--========= content ==========-->
                             <div class="form-popup form-container" id="form8">
@@ -2049,6 +2071,7 @@
                                 <img src="./asset/images/xe bán/ex9.png" alt="" class="featured-img">
                                 <h3 class="featured-price">$96,200</h3>
                                 <button class="open-button" onclick="openForm('form9')">More</button><br>
+                                <button class="form-button" onclick="openForm('form99')">Get a quote</button><br>
                             </article>
                             <!--========= content ==========-->
                             <div class="form-popup form-container" id="form9">
@@ -2233,6 +2256,7 @@
                                     class="featured-img">
                                 <h3 class="featured-price">$43,550</h3>
                                 <button class="open-button" onclick="openForm('form10')">More</button><br>
+                                <button class="form-button" onclick="openForm('form99')">Get a quote</button><br>
                             </article>
                             <!--========= content ==========-->
                             <div class="form-popup form-container" id="form10">
@@ -2477,6 +2501,7 @@
                                 <img src="./asset/images/xe bán/model s lr awd.png" alt="" class="featured-img">
                                 <h3 class="featured-price">$90,450</h3>
                                 <button class="open-button" onclick="openForm('form12')">More</button><br>
+                                <button class="form-button" onclick="openForm('form99')">Get a quote</button><br>
                             </article>
                             <!--========= content ==========-->
                             <div class="form-popup form-container" id="form12">
@@ -2655,6 +2680,7 @@
                                 <img src="./asset/images/xe bán/model X.png" alt="" class="featured-img">
                                 <h3 class="featured-price">$105,900</h3>
                                 <button class="open-button" onclick="openForm('form13')">More</button><br>
+                                <button class="form-button" onclick="openForm('form99')">Get a quote</button><br>
                             </article>
                             <!--========= content ==========-->
                             <div class="form-popup form-container" id="form13">
@@ -2834,6 +2860,7 @@
                                 <img src="./asset/images/xe bán/Q8.png" alt="" class="featured-img">
                                 <h3 class="featured-price">$56,085</h3>
                                 <button class="open-button" onclick="openForm('form14')">More</button><br>
+                                <button class="form-button" onclick="openForm('form99')">Get a quote</button><br>
                             </article>
                             <!--========= content ==========-->
                             <div class="form-popup form-container" id="form14">
@@ -3009,6 +3036,7 @@
                                 <img src="./asset/images/xe bán/E-tron.png" alt="" class="featured-img">
                                 <h3 class="featured-price">$106,100</h3>
                                 <button class="open-button" onclick="openForm('form15')">More</button><br>
+                                <button class="form-button" onclick="openForm('form99')">Get a quote</button><br>
                             </article>
                             <!--========= content ==========-->
                             <div class="form-popup form-container" id="form15">
@@ -3184,6 +3212,7 @@
                                 <img src="./asset/images/xe bán/vinfast-vf7.png" alt="" class="featured-img">
                                 <h3 class="featured-price">$25,000</h3>
                                 <button class="open-button" onclick="openForm('form16')">More</button><br>
+                                <button class="form-button" onclick="openForm('form99')">Get a quote</button><br>
                             </article>
                             <!--========= content ==========-->
                             <div class="form-popup form-container" id="form16">
@@ -3363,6 +3392,7 @@
                                 <img src="./asset/images/xe bán/vf9.png" alt="" class="featured-img">
                                 <h3 class="featured-price">$60,100</h3>
                                 <button class="open-button" onclick="openForm('form17')">More</button><br>
+                                <button class="form-button" onclick="openForm('form99')">Get a quote</button><br>
                             </article>
                             <!--========= content ==========-->
                             <div class="form-popup form-container" id="form17">
@@ -3554,6 +3584,7 @@
                                 <img src="./asset/images/xe bán/VF8.png" alt="" class="featured-img">
                                 <h3 class="featured-price">$46,800</h3>
                                 <button class="open-button" onclick="openForm('form18')">More</button><br>
+                                <button class="form-button" onclick="openForm('form99')">Get a quote</button><br>
                             </article>
                             <!--========= content ==========-->
                             <div class="form-popup form-container" id="form18">
@@ -3731,6 +3762,7 @@
                                 <img src="./asset/images/xe bán/ex9.png" alt="" class="featured-img">
                                 <h3 class="featured-price">£90,200</h3>
                                 <button class="open-button" onclick="openForm('form19')">More</button><br>
+                                <button class="form-button" onclick="openForm('form99')">Get a quote</button><br>
                             </article>
                             <!--========= content ==========-->
                             <div class="form-popup form-container" id="form19">
@@ -3909,6 +3941,72 @@
                     </div>
             </section>
         </section>
+          <!--=============== Get a quote ===============-->
+          <div class="quote-container form-popup"  id="form99">
+                <div class="title">Get a quote</div>
+                <div class="content">
+                  <form action="#">
+                    <div class="user-details">
+                      <div class="input-box">
+                        <span class="details">Full Name</span>
+                        <input type="text" placeholder="Enter your name" required>
+                      </div>
+                      <div class="input-box">
+                        <span class="details">Username</span>
+                        <input type="text" placeholder="Enter your username" required>
+                      </div>
+                      <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="text" placeholder="Enter your email" required>
+                      </div>
+                      <div class="input-box">
+                        <span class="details">Phone Number</span>
+                        <input type="text" placeholder="Enter your number" required>
+                      </div>
+                      <div class="input-box">
+                        <span class="details">Get car quote</span>
+                        <select >
+                            <option value="">Tesla Model Y SR+ RWD</option>
+                            <option value="">Tesla Model S LR</option>
+                            <option value="">XC40 Recharge</option>
+                            <option value="">EX90 LR</option>
+                            <option value="">VF8 Plus SR</option>
+                            <option value="">VF9 Plus LR</option>
+                            <option value="">VF7 ECO 2022</option>
+                            <option value="">RS e-tron GT</option>
+                            <option value="">Q8 50 e-tron quattro</option>
+                            <option value="">Model X LR+</option>
+                            <option value="">XC90 Recharge</option>
+                      </div>
+                    </div>
+                    <div class="gender-details">
+                      <input type="radio" name="gender" id="dot-1">
+                      <input type="radio" name="gender" id="dot-2">
+                      <input type="radio" name="gender" id="dot-3">
+                      <span class="gender-title">Gender</span>
+                      <div class="category">
+                        <label for="dot-1">
+                        <span class="dot one"></span>
+                        <span class="gender">Male</span>
+                      </label>
+                      <label for="dot-2">
+                        <span class="dot two"></span>
+                        <span class="gender">Female</span>
+                      </label>
+                      <label for="dot-3">
+                        <span class="dot three"></span>
+                        <span class="gender">Prefer not to say</span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="button1">
+                      <input type="submit" value="Submit" onclick="notify()" >
+                    </div>
+                  </form>
+                </div>
+                <i class="ri-close-line" id="close-cart" aria-hidden="true"
+                onclick="closeForm('form99')"></i>
+            </div>
     </main>
 
     <!--=============== FOOTER ===============-->

@@ -39,11 +39,11 @@
         justify-self: center;
     }
 
-    .offer-container {
+    .introduce-container {
         grid-template-rows: max-content 180px;
     }
 
-    .offer-img {
+    .introduce-img {
         width: 340px;
     }
 
@@ -85,6 +85,21 @@
         grid-template-columns: repeat(2, max-content);
         justify-content: space-between;
     }
+    .introduce-container {
+        grid-template-rows: initial;
+        grid-template-columns: .5fr;
+        justify-content: center;
+    }
+
+    .introduce-img {
+        position: relative;
+        bottom: initial;
+        right: initial;
+    }
+
+    .introduce-data {
+        margin-bottom: 4rem;
+    }
     .gallery-img {
         width: 350px !important;
         height: 250px !important;
@@ -97,7 +112,7 @@
        }
 }
 
-@media screen and (min-width:767px) {
+@media screen and (min-width:1000px) {
      
     .section {
         padding: 7rem 0 2rem;
@@ -109,14 +124,30 @@
         float: left;
 
     }
+    .nav {
+        height: calc(3.5rem + 1.5rem);
+    }
 
+    .nav-toggle,
+    .nav-close {
+        display: none;
+    }
+
+    .nav-list {
+        flex-direction: row;
+        column-gap: 3rem;
+        padding-top: 0;
+    }
+
+    .nav-link {
+        font-size:.938rem;
+        text-transform: initial;
+    }
     .about-group,
     .about-img {
         width: 380px;
         height: 200px;
     }
-
-
 
     .about-container {
         grid-template-columns: repeat(2, 1fr);
@@ -139,7 +170,7 @@
 }
 
 /* For Large Devices */
-@media screen and (min-width:1000px){
+/* @media screen and (min-width:1035px){
     .nav {
         height: calc(3.5rem + 1.5rem);
     }
@@ -159,7 +190,7 @@
         font-size:.938rem;
         text-transform: initial;
     }
-}
+} */
 @media screen and (min-width:1140px) {
     .container {
         margin-right: auto;
@@ -276,27 +307,27 @@
         gap: 4rem;
     }
 
-    .offer-container {
+    .introduce-container {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 5rem;
         align-items: center;
         padding-bottom: 2rem;
     }
 
-    .offer-data,
-    .offer-title {
+    .introduce-data,
+    .introduce-title {
         text-align: initial;
     }
 
-    .offer-data {
+    .introduce-data {
         margin-bottom: 0;
     }
 
-    .offer-description {
+    .introduce-description {
         padding-right: 6rem;
     }
 
-    .offer-img {
+    .introduce-img {
         width: 450px;
     }
 
