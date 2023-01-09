@@ -6,8 +6,18 @@ function closeForm(formId) {
   document.getElementById(formId).style.display = "none";
 }
 function notify(){
+  if (window.confirm('✅ We have received the quotation and will contact you as soon as possible'))
+{
+    // They clicked Yes
+    location.reload();
+}
+else
+{
+    // They clicked no
+}
   // if( type="submit" = true)
-  alert("✅ We have received the quotation and will contact you as soon as possible")
+  // alert("✅ We have received the quotation and will contact you as soon as possible")
+  // location.reload();
 }
 // init show all item
 filterSelection("filterDivNew","all");
