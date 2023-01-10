@@ -533,7 +533,12 @@ font-size: 25px;
     width: 500px;
     bottom: 5rem;
 }
-
+.maxim{
+    text-align: center;
+    margin-left: 25%;
+    width: 50%;
+    color:ghostwhite ;
+}
 /*========== LOGOS ==========*/
 
 .logos-container {
