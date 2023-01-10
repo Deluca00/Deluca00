@@ -3955,27 +3955,27 @@
             </section>
         </section>
         <!--=============== Get a quote ===============-->
-        <div class="quote-container form-popup" id="form99">
+        <div class="quote-container quote-popup" id="form99">
             <div class="title">Get a quote</div>
             <div class="content">
-                <form action="#">
+                <form name="check1" action="#" onsubmit="return kiemtra()">
                     <div class="user-details">
                         <div class="input-box">
                             <span class="details">Full Name</span>
-                            <input type="text" placeholder="Enter your name" required pattern="[a-z,A-Z]{3,}"
+                            <input name="fullname" type="text" id="1" placeholder="Enter your name" required pattern="[a-z,A-Z]{3,}"
                             title="First name is require and must be at least 3 character">
                         </div>
                         <div class="input-box">
                             <span class="details">Username</span>
-                            <input type="text" placeholder="Enter your username" required>
+                            <input name="username" type="text" placeholder="Enter your username" required>
                         </div>
                         <div class="input-box">
                             <span class="details">Email</span>
-                            <input type="email" placeholder="Enter your email" required>
+                            <input name="email" type="email" placeholder="Enter your email" required>
                         </div>
                         <div class="input-box">
                             <span class="details">Phone Number</span>
-                            <input type="number" placeholder="Enter your number" required>
+                            <input name="number" type="number" placeholder="Enter your number" required>
                         </div>
                         <div class="input-box">
                             <span class="details">Get car quote</span>
@@ -3994,10 +3994,9 @@
                         </div>
                     </div>
                     <div class="gender-details">
-                        <input type="radio" name="gender" id="dot-1">
-                        <input type="radio" name="gender" id="dot-2">
-                        <input type="radio" name="gender" id="dot-3">
-                        <span class="gender-title">Gender</span>
+                        <input type="radio" name="gender1" id="dot-1">
+                        <input type="radio" name="gender2" id="dot-2">
+                        <span class="gender-title"><br>Gender</span>
                         <div class="category">
                             <label for="dot-1">
                                 <span class="dot one"></span>
@@ -4007,10 +4006,6 @@
                                 <span class="dot two"></span>
                                 <span class="gender">Female</span>
                             </label>
-                            <label for="dot-3">
-                                <span class="dot three"></span>
-                                <span class="gender">Prefer not to say</span>
-                            </label>
                         </div>
                     </div>
                     <div class="button1">
@@ -4018,7 +4013,7 @@
                     </div>
                 </form>
             </div>
-            <i class="ri-close-line" id="close-cart" aria-hidden="true" onclick="closeForm('form99')"></i>
+            <i class="ri-close-line" id="close-cart" aria-hidden="true" onclick="closeForm('form99')" onclick="aa()"></i>
         </div>
     </main>
 
