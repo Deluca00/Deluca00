@@ -1,0 +1,128 @@
+/*========== FOOTER ==========*/
+
+.footer{
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.footer .shape-big,
+.footer .shape-small{
+    position: absolute;
+}
+
+.footer .shape-big{
+    width: 300px;
+    height: 300px;
+    top: 6cm;
+    left: -12cm;
+}
+
+.footer .shape-small{
+    right: -13cm;
+    bottom: -6cm;
+}
+
+.footer-container{
+    column-gap: 2.5cm;
+    row-gap: 2.5cm;
+    position: relative;
+}
+
+.footer-logo{
+    display: inline-flex;
+    align-items:center;
+    column-gap: .25cm;
+    color:white;
+    font-size: 50px;
+    font-family: 'Arial Narrow';
+    margin-bottom: 1.25cm;
+    transition: .2s;
+}
+
+.footer-logo i{
+    font-size: 1.5cm;
+    font-weight: 500;
+}
+
+.footer-logo:hover{
+    color:greenyellow;
+}
+
+p {
+    color: rgb(146, 146, 146) ;
+    font-family: 'Arial';
+    font-size: larger;
+}
+
+.footer-title{
+font-size: larger;
+margin-bottom: 0.75cm;
+}
+.footer-title:hover{
+    color: greenyellow;
+}
+u:hover  {
+    color: white;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    row-gap: .5cm;
+}
+
+.footer-link,
+.footer-social-link{
+    color: rgb(146, 146, 146) ;
+    transition: .2s;
+}
+
+.footer-link:hover,
+.footer-social-link:hover{
+     color: white  ;
+}
+
+.footer-social{
+    display: flex;
+    column-gap: 1.5cm;
+    padding-bottom: 0.75cm;
+}
+
+.footer-social-link{
+    font-size: 1.25cm;
+}
+.footer-end{
+    display: block;
+    margin-top: 4.5cm;
+    text-align: center;
+    font-size:large;
+    color:rgb(146, 146, 146);
+
+}
+.footer-end:hover {
+    color: white ;
+}
+
+.footer-email {
+    width: 250px;
+    height: 35px;
+    color:grey;
+    opacity: 0.3;
+    border-radius: 5px;
+}
+.button {
+    background-color: gray;
+}
+.footer-button {
+    background-color: gray;
+    border-radius: 5px ;
+    transform: scale(1.65);
+    font-size: x-small;
+    margin: 15px;
+    padding: 3px;
+
+}
+.footer-button:hover {
+    background-color:greenyellow;;
+}
