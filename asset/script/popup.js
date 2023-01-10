@@ -6,20 +6,29 @@ function closeForm(formId) {
   document.getElementById(formId).style.display = "none";
 }
 function notify(){
-  if (window.confirm('✅ We have received the quotation and will contact you as soon as possible'))
-{
-    // They clicked Yes
-    location.reload();
+  var fullname = document.check1.fullname.value;
+  var username = document.check1.username.value;
+  var email = document.check1.email.value;
+  var number = document.check1.number.value;
+  var gender1 = document.check1.gender1.value;
+  var gender2 = document.check1.gender2.value;
+
+  if(fullname == ""  ){
+    window.alert('🆂🅾🆂 Please complete all information')
+  }else  if(username == ""  ){
+    window.alert('🆂🅾🆂 Please complete all information')
+  }else if(email == ""){
+    window.alert('🆂🅾🆂 Please complete all information')
+  }else if(number == ""){
+    window.alert('🆂🅾🆂 Please complete all information')
+  }else if(gender1 == "" && gender2 =="" ){
+    window.alert('🆂🅾🆂 Please complete all information')
+  }
+  else{
+  window.confirm('✅ We have received the quotation and will contact you as soon as possible');
+  location.reload();}
 }
-else
-{
-    // They clicked no
-}
-  // if( type="submit" = true)
-  // alert("✅ We have received the quotation and will contact you as soon as possible")
-  // location.reload();
-}
-// init show all item
+
 filterSelection("filterDivNew","all");
 filterSelection("filterDivOld","all");
 
