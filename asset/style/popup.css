@@ -1,0 +1,79 @@
+/* {box-sizing: border-box;} */
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  color: gray;
+  border: none;
+  outline: none;
+  padding: .75rem 1rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 1rem 0 1rem 0;
+  cursor: pointer;
+  
+}
+.form-button{
+  color: gray;
+  border: none;
+  outline: none;
+  padding: .75rem 1rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 1rem 0 1rem 0;
+  cursor: pointer;
+  
+}
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  right: 15px;
+  left:  15px;
+  top: 30px;
+  bottom: 40px;
+  border-radius: 10px;
+  background-color: 343f51;
+  z-index: 3;
+  align-items: center;
+}
+/* Add styles to the form container */
+.form-container {
+  align-items: center;
+  width:80%;
+  height: 95%;
+  margin: auto;
+  padding: 1px;
+  overflow-y: scroll;
+}
+.form-title{
+  margin: 20px 30px;
+  color: F5cbab ;
+}
+.form-img{
+ position: relative; 
+ width: 400px;
+ margin: 2rem 30%;
+ transition: .3s;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin: auto; 
+  margin-bottom: 30px;
+}
+
+td, th {
+  border: 0.5px solid #dddddd;
+  text-align: left;
+  padding: 5px;
+
+}
+th {
+  color:rgb(138, 253, 142) ;
+}
+td{
+  color:rgb(179, 201, 255)
+}
