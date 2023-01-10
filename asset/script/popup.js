@@ -10,9 +10,6 @@ function notify(){
   var username = document.check1.username.value;
   var email = document.check1.email.value;
   var number = document.check1.number.value;
-  var gender1 = document.check1.gender1.value;
-  var gender2 = document.check1.gender2.value;
-
   if(fullname == ""  ){
     window.alert('🆂🅾🆂 Please complete all information')
   }else  if(username == ""  ){
@@ -20,8 +17,6 @@ function notify(){
   }else if(email == ""){
     window.alert('🆂🅾🆂 Please complete all information')
   }else if(number == ""){
-    window.alert('🆂🅾🆂 Please complete all information')
-  }else if(gender1 == "" && gender2 =="" ){
     window.alert('🆂🅾🆂 Please complete all information')
   }
   else{
